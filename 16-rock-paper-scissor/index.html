@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="score-board">
+        <div class="logo">
+            <img src="./images/logo.svg" alt="">
+        </div>
+        <div class="score">
+            <p>score</p>
+            <div class="count">
+                <p>0</p>
+            </div>
+        </div>
+    </div>
+    <div id="triangle" class="triangle">
+        <div class="choose">
+            <p>Pick One</p>
+        </div>
+        <div class="top-two">
+            <button class="paper" name="paper">
+                <img src="./images/icon-paper.svg" alt="paper">
+            </button>
+            <button class="scissors" name="scissors">
+                <img src="./images/icon-scissors.svg" alt="scissors">
+            </button>
+        </div>
+        <div class="bottom-one">
+            <button class="rock" name="rock">
+                <img src="./images/icon-rock.svg" alt="rock">
+            </button>
+        </div>
+    </div>
+    <div id="match-board" class="match-board">
+        <div class="match-flex">
+            <div class="your-pick">
+                <p>You Picked</p>
+                <div class="your-pick-img">
+                    <button class="paper" id="yourpaper" name="paper">
+                        <img src="./images/icon-paper.svg" alt="paper">
+                    </button>
+                    <button class="scissors" id="yourscissors" name="scissors">
+                        <img src="./images/icon-scissors.svg" alt="scissors">
+                    </button>
+                    <button class="rock" id="yourrock" name="rock">
+                        <img src="./images/icon-rock.svg" alt="rock">
+                    </button>
+                </div>
+            </div>
+            <div class="result">
+                <p id="result">Draw</p>
+                <button id="play-again">Play Again</button>
+            </div>
+            <div class="house-pick">
+                <p>The House Picked</p>
+                <div class="house-pick-img">
+                    <button class="paper" id="hpaper" name="paper">
+                        <img src="./images/icon-paper.svg" alt="paper">
+                    </button>
+                    <button class="scissors" id="hscissors" name="scissors">
+                        <img src="./images/icon-scissors.svg" alt="scissors">
+                    </button>
+                    <button class="rock" id="hrock" name="rock">
+                        <img src="./images/icon-rock.svg" alt="rock">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rules">
+        <button id="myBtn">Rules</button>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-head">
+                <p>Rules</p>
+                <button id="close">
+                    <img src="./images/icon-close.svg" alt="close icon">
+                </button>
+            </div>
+            <div class="modal-img">
+                <img src="./images/image-rules.svg" alt="Rules">
+            </div>
+        </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="http://" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. Coded by <a
+            href="#">Tomi</a>.
+    </div>
+</body>
+
+</html>

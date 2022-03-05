@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="todo-wrapper">
+        <h1 class="title">Todo List</h1>
+        <form action="" id="todo-form">
+            <input type="text" name="" placeholder="What do you want to do?" id="todo-input">
+            <button type="submit">
+                <img src="./media/add.svg" alt="+">
+            </button>
+        </form>
+        <div id="todos">
+            <!-- <div class="todo-item">
+                <input type="checkbox" name="" id="" class="todo-status">
+                <span class="todo-text">Sleep like no tomorrow</span>
+                <img src="./media/edit.svg" class="edit-todo" alt="">
+                <img src="./media/delete.svg" alt="" class="remove-todo">
+            </div> -->
+        </div>
+        <p class="status" id="todos-stat">
+            <!-- <span>Total: 4</span>
+            <span>Todo: 4</span>
+            <span>Done: 4</span> -->
+        </p>
+    </div>
+    <div class="modal" id="edit-modal">
+        <div class="modal-content">
+            <form action="" id="edit-form">
+                <div class="edit-inputs">
+                    <input type="text" name="" placeholder="Todo Text" id="edit-text">
+                </div>
+                <div class="actions">
+                    <button type="reset" id="cancel-edit">Cancel</button>
+                    <button type="submit">Save edit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

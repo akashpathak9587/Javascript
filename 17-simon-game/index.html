@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div id="game">
+        <div id="board">
+            <div id="colors" class="colors">
+                <div id="green"></div>
+                <div id="red"></div>
+                <div id="yellow"></div>
+                <div id="blue"></div>
+            </div>
+        </div>
+        <div class="controls center">
+            <h3>Simon</h3>
+            <div id="buttons" class="row">
+                <div class="col s6">
+                    <button id="start" class="z-depth-1"></button>
+                </div>
+                <div class="col s6">
+                    <div class="switch">
+                        <label for="">
+                            <input type="checkbox" name="" id="strict">
+                            <span class="lever"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6 labels">
+                    <p id="strict-label">Strict</p>
+                </div>
+            </div>
+            <div class="count">
+                <h5 id="count-num">--</h5>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
